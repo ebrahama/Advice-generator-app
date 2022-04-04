@@ -54,7 +54,7 @@ body{
     position: relative;
     background:var(--Dark-Grayish-Blue) ;
     border-radius: 15px;
-    margin: 10vh auto;
+    margin: 20vh auto;
     width: 330px;
     box-shadow: 0px 0px 10px var(--Dark-Grayish-Blue);
 }
