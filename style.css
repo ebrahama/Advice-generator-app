@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    
+    
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    background: var(--Dark-Blue)
+}
+
+.contaner h3{
+    color: var(--Neon-Green);
+    font-size: x-small;
+}
+
+.contaner p{
+    color: var(--Light-Cyan);
+}
+
+.contaner button{
+    border: none;
+    background: var(--Neon-Green);
+    padding: 16px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -29px;
+}
+
+.contaner button:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 25px var(--Neon-Green);
+}
+.contaner{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background:var(--Dark-Grayish-Blue) ;
+    border-radius: 15px;
+    margin: 10vh auto;
+    width: 330px;
+    box-shadow: 0px 0px 10px var(--Dark-Grayish-Blue);
+}
+.contaner .ff{
+    display: none;
+}
+.contaner .mm{
+  display: block;
+  padding-bottom:20px;
+
+}
+
+@media(min-width:1000px){
+
+  .contaner p{
+      font-size: 28px;
+  }
+  .contaner h3{
+     margin-bottom: 10px;
+     font-size: larger;
+}
+  .contaner .ff{
+      display: block;
+      padding-bottom:25px;
+  }
+  .contaner .mm{
+    display: none;
+}
+  .contaner{
+    width: 600px;
+    margin: 19vh auto;
+
+  }
+
+}
